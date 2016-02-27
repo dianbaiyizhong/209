@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<!-- struts2配置文件，用于Action等配置 -->
+<struts>
+	<package name="ajaxDone" namespace="/ajax" extends="json-default">
+		<action name="ajaxDoneSuccess" class="ajaxDoneAction" method="ajaxDoneSuccess">
+			<result name="success" type="json"></result>
+		</action>
+		<action name="ajaxDoneError" class="ajaxDoneAction" method="ajaxDoneError">
+			<result name="error" type="json"></result>
+		</action>
+	</package>
+	
+	<!-- ****************************************line********************************************************** -->
+</struts>    

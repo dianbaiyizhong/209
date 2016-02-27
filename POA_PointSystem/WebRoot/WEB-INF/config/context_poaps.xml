@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+	default-lazy-init="true" default-autowire="byName">
+
+	<!-- DAO -->
+	<bean id="categoryEventDao" class="org.cischina.dao.impl.CategoryEventDaoImpl" abstract="false" lazy-init="default" autowire="default"></bean>
+	<bean id="categorySiteTwoDao" class="org.cischina.dao.impl.CategorySiteTwoDaoImpl" abstract="false" lazy-init="default" autowire="default"></bean>
+	<bean id="eventListDao" class="org.cischina.dao.impl.EventListDaoImpl" abstract="false" lazy-init="default" autowire="default"></bean>
+	<bean id="eventStatusDao" class="org.cischina.dao.impl.EventStatusDaoImpl" abstract="false" lazy-init="default" autowire="default"></bean>
+	
+	<!-- Service -->
+	<bean id="categoryEventService" class="org.cischina.service.impl.CategoryEventServiceImpl" abstract="false" lazy-init="default" autowire="default"></bean>
+	<bean id="categorySiteTwoService" class="org.cischina.service.impl.CategorySiteTwoServiceImpl" abstract="false" lazy-init="default" autowire="default"></bean>
+	<bean id="eventListService" class="org.cischina.service.impl.EventListServiceImpl" abstract="false" lazy-init="default" autowire="default"></bean>
+	<bean id="eventStatusService" class="org.cischina.service.impl.EventStatusServiceImpl" abstract="false" lazy-init="default" autowire="default"></bean>
+
+	<!-- Action -->
+	
+</beans>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="POA_PointSystem"
+  id="myeclipse.1398674452424"
+  context-root="/poaps"
+  j2ee-spec="6.0"
+  archive="POA_PointSystem.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
